@@ -1,0 +1,15 @@
+h1 { background-color: rgb(234, 236, 227);}
+h2 {background-color: rgb(234, 236, 227);}
+h3 {background-color: bisque;}
+.presentacion{
+    color: brown;
+}
+.idiomas{
+    color: blue;
+}
+#mensaje{
+    width: 400px;
+    background-color: bisque;
+    text-decoration-style: solid;
+    text-align: center;
+}
