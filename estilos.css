@@ -1,15 +1,115 @@
-h1 { background-color: rgb(234, 236, 227);}
-h2 {background-color: rgb(234, 236, 227);}
-h3 {background-color: bisque;}
+h1 { background-color: #eaece3;}
+
+h2 {text-align: center;
+    color:white;
+    background:linear-gradient(#E6E6FA,green, #D8BFD8);
+    backdrop-filter:initial;}
+    
+
+h3 {text-align: center;}
+
+p  {color:#ffffff;
+    text-shadow: black;}
+   ul{color:#ffffff;
+    text-shadow: black;}
+
+.contenedor{
+    
+    position: relative;
+    background: linear-gradient(lightgrey, lightgreen,lightgrey);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
 .presentacion{
-    color: brown;
+    width: 300px;
+     color: brown;
+     text-align: center;
 }
-.idiomas{
-    color: blue;
-}
-#mensaje{
+
+
+#experiencia{
     width: 400px;
-    background-color: bisque;
+    justify-content: center;
+    text-decoration-style: solid;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    background:linear-gradient(#E6E6FA,green, #D8BFD8);
+    filter: grayscale(20%);
+    border-style: inset;
+    animation-name: slidein;
+    animation-duration: 5s;
+
+}
+
+@keyframes  slidein {from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 300%;
+  }
+}
+
+#experiencia:hover{
+    filter:grayscale(50%)
+}
+
+#estudios{
+    width: 160px;
+    justify-content: center;
     text-decoration-style: solid;
     text-align: center;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    background:linear-gradient(#E6E6FA,green, #D8BFD8);
+    filter: grayscale(20%);
+    border-style: inset;
+    animation-name: slidein;
+    animation-duration: 5s;
+}
+
+#estudios:hover{
+    filter: grayscale(50%);
+}
+
+#idiomas{
+    width: 190px;
+    text-decoration-style: solid;
+    text-align: center;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    background:linear-gradient(#E6E6FA,green, #D8BFD8);
+    filter: grayscale(20%);
+    border-style: inset;
+    animation-name: slidein;
+    animation-duration: 5s;
+}
+
+#idiomas:hover{
+    filter: grayscale(50%);
+}
+#mensaje{
+    width: 380px;
+    text-decoration-style: solid;
+    text-align: center;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    background:linear-gradient(#E6E6FA,green, #D8BFD8);
+    filter: grayscale(20%);
+    border-style: inset;
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+
+#mensaje{
+    filter: grayscale(50%);
 }
