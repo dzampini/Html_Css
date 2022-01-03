@@ -1,22 +1,22 @@
-h1 { background-color: #eaece3;}
+h1 { background-color: #11110f;}
 
 h2 {text-align: center;
-    color:white;
+    color:#11110f;
     background:linear-gradient(#E6E6FA,green, #D8BFD8);
     backdrop-filter:initial;}
     
 
 h3 {text-align: center;}
 
-p  {color:#ffffff;
+p  {color:#161313;
     text-shadow: black;}
-   ul{color:#ffffff;
-    text-shadow: black;}
+   ul{color:#030303;
+    text-shadow: whitesmoke;}
 
 .contenedor{
     
     position: relative;
-    background: linear-gradient(lightgrey, lightgreen,lightgrey);
+    /*background: lightgrey;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -38,10 +38,13 @@ p  {color:#ffffff;
     display: inline-flex;
     flex-direction: column;
     background:linear-gradient(#E6E6FA,green, #D8BFD8);
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
     filter: grayscale(20%);
     border-style: inset;
     animation-name: slidein;
     animation-duration: 3s;
+    ;
 
 }
 
@@ -69,6 +72,8 @@ p  {color:#ffffff;
     display: inline-flex;
     flex-direction: column;
     background:linear-gradient(#E6E6FA,green, #D8BFD8);
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
     filter: grayscale(20%);
     border-style: inset;
     animation-name: slidein;
@@ -87,6 +92,8 @@ p  {color:#ffffff;
     display: inline-flex;
     flex-direction: column;
     background:linear-gradient(#E6E6FA,green, #D8BFD8);
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
     filter: grayscale(20%);
     border-style: inset;
     animation-name: slidein;
@@ -104,6 +111,8 @@ p  {color:#ffffff;
     display: inline-flex;
     flex-direction: column;
     background:linear-gradient(#E6E6FA,green, #D8BFD8);
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
     filter: grayscale(20%);
     border-style: inset;
     animation-name: slidein;
