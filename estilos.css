@@ -41,7 +41,7 @@ p  {color:#ffffff;
     filter: grayscale(20%);
     border-style: inset;
     animation-name: slidein;
-    animation-duration: 5s;
+    animation-duration: 3s;
 
 }
 
