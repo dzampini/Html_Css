@@ -1,9 +1,11 @@
-h1 { background-color: #11110f;}
+h1 { background:linear-gradient(orange, white);
+border-radius: 20%;}
 
 h2 {text-align: center;
     color:#11110f;
     background:linear-gradient(#E6E6FA,green, #D8BFD8);
-    backdrop-filter:initial;}
+    backdrop-filter:initial;
+    border-radius: 20px;}
     
 
 h3 {text-align: center;}
@@ -49,16 +51,7 @@ p  {color:#161313;
 
 }
 
-@keyframes  slidein {from {
-    margin-left: 100%;
-    width: 300%
-  }
 
-  to {
-    margin-left: 0%;
-    width: 300%;
-  }
-}
 
 #experiencia:hover{
     filter:grayscale(50%)
