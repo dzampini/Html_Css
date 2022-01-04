@@ -13,8 +13,8 @@ body{
     filter: grayscale(20%);
     }
 h2 {
-    width: 400px;
     
+    text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(44, 40, 40);
     
@@ -24,8 +24,8 @@ h2 {
 
 h3 {text-align: center;}
 
-p  {color:#161313;
-    text-shadow: black;}
+p  {color:black;
+    }
    ul{color:#030303;
     text-shadow: whitesmoke;}
 
