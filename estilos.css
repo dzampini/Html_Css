@@ -1,5 +1,9 @@
-h1{
-    color: rgb(87, 82, 82);
+h1{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(87, 82, 82);
+    background:linear-gradient(rgb(168, 243, 168), transparent);
+    backdrop-filter:initial;
+    border-radius: 20px;}
 
 }
 
@@ -8,10 +12,12 @@ body{
     filter: blur(100px);
     filter: grayscale(20%);
     }
-h2 {text-align: center;
+h2 {
+    width: 400px;
+    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:rgb(87, 82, 82);
-    background:linear-gradient(rgb(168, 243, 168), transparent);
+    color:rgb(44, 40, 40);
+    
     backdrop-filter:initial;
     border-radius: 20px;}
     
@@ -66,9 +72,9 @@ p  {color:#161313;
 }
 
 #estudios{
-    width: 160px;
+    width: 190px;
     color: rgb(87, 82, 82);
-    justify-content: center;
+    /*justify-content: center;*/
     text-decoration-style: solid;
     text-align: center;
     position: relative;
@@ -124,6 +130,6 @@ p  {color:#161313;
     background-clip: padding-box
 }
 
-#mensaje{
+#mensaje:hover{
     filter: grayscale(50%);
 }
