@@ -4,7 +4,8 @@ body{
     filter: grayscale(20%);
     }
 h2 {text-align: center;
-    color:#11110f;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(87, 82, 82);
     background:linear-gradient(rgb(168, 243, 168), transparent);
     backdrop-filter:initial;
     border-radius: 20px;}
@@ -36,6 +37,7 @@ p  {color:#161313;
 
 #experiencia{
     width: 400px;
+    color: rgb(87, 82, 82);
     justify-content: center;
     text-decoration-style: solid;
     position: relative;
@@ -60,6 +62,7 @@ p  {color:#161313;
 
 #estudios{
     width: 160px;
+    color: rgb(87, 82, 82);
     justify-content: center;
     text-decoration-style: solid;
     text-align: center;
@@ -81,6 +84,7 @@ p  {color:#161313;
 
 #idiomas{
     width: 190px;
+    color: rgb(87, 82, 82);
     text-decoration-style: solid;
     text-align: center;
     position: relative;
@@ -100,6 +104,7 @@ p  {color:#161313;
 }
 #mensaje{
     width: 380px;
+    color: rgb(87, 82, 82);
     text-decoration-style: solid;
     text-align: center;
     position: relative;
