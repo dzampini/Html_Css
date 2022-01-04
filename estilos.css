@@ -1,9 +1,10 @@
-h1 { background:linear-gradient(orange, white);
-border-radius: 20%;}
-
+body{
+    filter: blur(100px);
+    filter: grayscale(20%);
+    }
 h2 {text-align: center;
     color:#11110f;
-    background:linear-gradient(#E6E6FA,green, #D8BFD8);
+    background:linear-gradient(rgb(168, 243, 168),white);
     backdrop-filter:initial;
     border-radius: 20px;}
     
@@ -39,14 +40,13 @@ p  {color:#161313;
     position: relative;
     display: inline-flex;
     flex-direction: column;
-    background:linear-gradient(#E6E6FA,green, #D8BFD8);
+    background:linear-gradient(rgb(168, 243, 168), #D8BFD8);
     box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
     filter: blur(10px);
     filter: grayscale(20%);
-    border-style: inset;
     border-radius: 20px;
-    animation-name: slidein;
-    animation-duration: 3s;
+    border: 05px solid rgba(223, 219, 219, 0.945);
+    background-clip: padding-box
     ;
 
 }
@@ -65,14 +65,13 @@ p  {color:#161313;
     position: relative;
     display: inline-flex;
     flex-direction: column;
-    background:linear-gradient(#E6E6FA,green, #D8BFD8);
+    background:linear-gradient(rgb(168, 243, 168), #D8BFD8);
     box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
     filter: blur(10px);
     filter: grayscale(20%);
-    border-style: inset;
     border-radius: 20px;
-    animation-name: slidein;
-    animation-duration: 5s;
+    border: 05px solid rgba(223, 219, 219, 0.945);
+    background-clip: padding-box
 }
 
 #estudios:hover{
@@ -86,14 +85,13 @@ p  {color:#161313;
     position: relative;
     display: inline-flex;
     flex-direction: column;
-    background:linear-gradient(#E6E6FA,green, #D8BFD8);
+    background:linear-gradient(rgb(168, 243, 168), #D8BFD8);
     box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
     filter: blur(10px);
     filter: grayscale(20%);
-    border-style: inset;
     border-radius: 20px;
-    animation-name: slidein;
-    animation-duration: 5s;
+    border: 05px solid rgba(223, 219, 219, 0.945);
+    background-clip: padding-box
 }
 
 #idiomas:hover{
@@ -106,14 +104,13 @@ p  {color:#161313;
     position: relative;
     display: inline-flex;
     flex-direction: column;
-    background:linear-gradient(#E6E6FA,green, #D8BFD8);
+    background:linear-gradient(rgb(168, 243, 168), #D8BFD8);
     box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
     filter: blur(10px);
     filter: grayscale(20%);
-    border-style: inset;
     border-radius: 20px;
-    animation-name: slidein;
-    animation-duration: 3s;
+    border: 05px solid rgba(223, 219, 219, 0.945);
+    background-clip: padding-box
 }
 
 #mensaje{
