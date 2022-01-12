@@ -5,7 +5,7 @@ h1{
     backdrop-filter:initial;
     border-radius: 20px;}
 
-}
+
 
 body{
     
@@ -24,6 +24,11 @@ h2 {
 
 h3 {text-align: center;}
 
+h6{
+    text-align: center;
+     color: brown;
+     }
+
 p  {color:black;
     }
    ul{color:#030303;
@@ -37,13 +42,11 @@ p  {color:black;
     flex-direction: row;
     justify-content: space-between;
     
+    
 }
 
-.presentacion{
-    width: 300px;
-     color: brown;
-     text-align: center;
-}
+
+
 
 
 #experiencia{
@@ -61,6 +64,7 @@ p  {color:black;
     border-radius: 20px;
     /*border: 05px solid rgba(223, 219, 219, 0.945);*/
     background-clip: padding-box;
+    transition: all 0.3s ease-in;
     
 
 }
@@ -68,7 +72,8 @@ p  {color:black;
 
 
 #experiencia:hover{
-    filter:grayscale(50%)
+    filter:grayscale(50%);
+    box-shadow: inset 0 0 0 5px;
 }
 
 #estudios{
@@ -86,11 +91,13 @@ p  {color:black;
     filter: grayscale(20%);
     border-radius: 20px;
     /*border: 05px solid rgba(223, 219, 219, 0.945);*/
-    background-clip: padding-box
+    background-clip: padding-box;
+    transition: all 0.3s ease-in;
 }
 
 #estudios:hover{
     filter: grayscale(50%);
+    box-shadow: inset 0 0 0 5px;
 }
 
 #idiomas{
@@ -107,11 +114,13 @@ p  {color:black;
     filter: grayscale(20%);
     border-radius: 20px;
     /*border: 05px solid rgba(223, 219, 219, 0.945);*/
-    background-clip: padding-box
+    background-clip: padding-box;
+    transition: all 0.3s ease-in;
 }
 
 #idiomas:hover{
     filter: grayscale(50%);
+    box-shadow: inset 0 0 0 5px;
 }
 #mensaje{
     width: 380px;
@@ -127,9 +136,11 @@ p  {color:black;
     filter: grayscale(20%);
     border-radius: 20px;
     /*border: 05px solid rgba(223, 219, 219, 0.945);*/
-    background-clip: padding-box
+    background-clip: padding-box;
+    transition: all 0.3s ease-in;
 }
 
 #mensaje:hover{
     filter: grayscale(50%);
+    box-shadow: inset 0 0 0 5px;
 }
