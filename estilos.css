@@ -73,7 +73,7 @@ p  {color:black;
 
 #experiencia:hover{
     filter:grayscale(50%);
-    box-shadow: inset 0 0 0 5px;
+    box-shadow: inset 0 0 0 0px;
 }
 
 #estudios{
@@ -97,7 +97,7 @@ p  {color:black;
 
 #estudios:hover{
     filter: grayscale(50%);
-    box-shadow: inset 0 0 0 5px;
+    box-shadow: inset 0 0 0 0px;
 }
 
 #idiomas{
@@ -120,7 +120,7 @@ p  {color:black;
 
 #idiomas:hover{
     filter: grayscale(50%);
-    box-shadow: inset 0 0 0 5px;
+    box-shadow: inset 0 0 0 0px;
 }
 #mensaje{
     width: 380px;
@@ -142,5 +142,5 @@ p  {color:black;
 
 #mensaje:hover{
     filter: grayscale(50%);
-    box-shadow: inset 0 0 0 5px;
+    box-shadow: inset 0 0 0 0px;
 }
