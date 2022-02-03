@@ -14,6 +14,7 @@ body{
     
     filter: blur(100px);
     filter: grayscale(70%);
+    
 
     }
 h2 {
@@ -114,7 +115,6 @@ p  {color:black;
     filter: blur(10px);
     filter: grayscale(20%);
     border-radius: 20px;
-    /*border: 05px solid rgba(223, 219, 219, 0.945);*/
     background-clip: padding-box;
     transition: all 0.5s ease-in;
 }
